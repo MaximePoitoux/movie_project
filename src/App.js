@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import TopRatedMovies from './components/pages/TopRatedMovies'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      
+      <TopRatedMovies />
     </div>
   );
 }
