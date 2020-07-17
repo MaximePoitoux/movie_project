@@ -1,0 +1,13 @@
+.listMovies {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-movie {
+  width: auto;
+  height: 300px;
+  border-radius: 20px;
+}
