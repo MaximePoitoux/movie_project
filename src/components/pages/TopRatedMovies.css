@@ -1,13 +1,89 @@
-.listMovies {
-  width: 100vw;
+.body {
+  /* height: 100vh; */
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.body-listMovies {
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+.div-listMovies {
+  width: 90%;
+}
+
+.listMovies {
+  /* width: 90%; */
+  /* max-width: 1300px;
+  min-height: 355px; */
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden; 
+  /* transition: .5s linear; */
+}
+
+.title-topRatedFilms {
+  font-weight: bold;
+  color: #21d07a;
+  display: flex;
+  margin: 0;
+}
+
+.listMovies::-webkit-scrollbar {
+  width: 1px;
+}
+
+.listMovies::-webkit-scrollbar-thumb {
+  background-color: #21d07a;
+  border-radius: 10px;
+}
+
+.divInfoMovie {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+
 .img-movie {
   width: auto;
-  height: 300px;
+  height: 250px;
   border-radius: 20px;
+}
+
+.background-voteAverage {
+  display: flex;
+  justify-content: center;
+  background-color: #081c22;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  position: relative;
+  padding: 5px;
+  width: 20px;
+  border: solid 2px #21d07a;
+  left: 9em;
+  top: 2.5em;
+}
+
+.p-movie-title {
+  font-weight: 700;
+  color: #000;
+  text-align: left;
+  margin-bottom: 4px
+}
+
+.p-release_date {
+  color: rgba(0,0,0,0.6);
+  text-align: left;
+  margin: 0;
 }
